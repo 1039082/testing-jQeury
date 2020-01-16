@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+//page for testing some jQeury stuff
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="js/js.js"></script>
+		<script src="js/hamburger.js"></script>
+		<script src="js/modal.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Parisienne|VT323" rel="stylesheet">
+	</head>
+	<body>
+	<header>
+		<div class="inline">
+			<button class="hamburger">&#9776;</button>	
+			<div class="dtest2"></div>
+			<input id="filter" type="text" placeholder="&#x1F50D; filter">
+		</div>
+		<nav id="menu">
+			<a class="not1" href="#" target="">1</a>
+			<a class="not2" href="#" target=""><li>2</li></a>
+			<a class="not3" href="#" target=""><li>3</li></a>
+		</nav>
+	</header>
+		<div class="container">
+			<div id="select">
+				<p id="ptest1">Konijn</p>
+				<p class="ptest2">Ijsbeer</p>
+				<p id="ptest3">Sneeuwluipaard</p>
+				<p class="ptest4">Slechtvalk</p>
+				<p class="ptest5">()>o Honk o<()</p>
+				<p class="ptest6">Click the white &#735;</p>
+				//a litle game
+					<div class="col-12 col-sm-12" id="tab">
+						<div id="balk" class="col-12 col-sm-12"><p>your score is : <strong id="point">0</strong></p></div>
+						<button class="dtest1">&#735;</button>
+						<div class="move"><p><strong>-</strong></p></div>
+						<div class="move" id="delay1"><strong>-</strong></div>
+						<div class="move" id="delay2"><strong>-</strong></div>
+						<div class="move" id="delay3"><strong>-</strong></div>
+					</div>
+				//
+				<div class="btn-group">
+					<button class="btest1 btn btn-outline-dark">weg</button>
+					<button class="btest2 btn btn-outline-dark">schreeuw</button>
+					<button class="btest4 btn btn-outline-dark">stop</button>
+					<button class="btest3 btn btn-outline-dark">verander</button>
+				</div>
+				</br>
+				//zoom in for the picture
+					<img class="img-rounded img-responsive img-thumbnail col-12 col-sm-12" id="test_img" src="img/konijn.jpg" alt="konijn">
+					<div id="my_modal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content img-rounded img-responsive" id="img01">
+					</div>
+				//
+			</div>
+			//to the top off the page button
+				<button id="top">^</button>
+			//
+			//test bootstrap
+				<div class="row">
+					<div class="col-md-8 col-sm-12">
+						<div id="blok1"></div>
+					</div>
+					<div class="row col-md-4 col-sm-12">
+						<div class="col-md-12 col-sm-6 col-12">
+							<div class="blok2"></div>
+						</div>
+						<div class="col-md-12 col-sm-6 col-12">
+							<div class="blok2"></div>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+					<div class="col-md-2 col-sm-4 col-6"><div class="blok3"></div></div>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row blok4">
+							<div class="col-sm-6 col-12 height">
+								<div class="row blok5">
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-12 height">
+								<div class="row blok5">
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-12 height">
+								<div class="row blok5">
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 col-12 height">
+								<div class="row blok5">
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+									<div class="col-sm-6 col-12 height">
+										<div class="row blok6">
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	//
+	</body>
+</html>
